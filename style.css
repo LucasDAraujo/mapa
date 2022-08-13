@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* --------------------------------- HEADER --------------------------------- */
+a {
+    outline: none;
+    text-decoration: none;
+}
+.marmitas,
+.nome {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #673b10;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #f9b233;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-imagem img {
+    height: 130px;
+}
+.container-logo {
+    width: 40%;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 26px;
+    list-style-type: none;
+    color: #673b10;
+    text-transform: uppercase;
+
+    padding: 10px;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.menu li a:hover {
+    box-shadow: inset 100px 0 0 0 #b27700;
+    color: white;
+    background-color: #c68006;
+}
+/* --------------------------------- HEADER --------------------------------- */
+
+/* ---------------------------------- body ---------------------------------- */
+body {
+    background-image: url("assets/background-img.jpg");
+    background-repeat: no;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container4 {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.texto-parteum {
+    color: beige;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18em;
+    padding-block: 40px;
+}
+
+button {
+    background-color: #d36833;
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+    box-shadow: inset 100px 0 0 0 #b27700;
+    color: white;
+    background-color: #c68006;
+}
+.container4 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.main_section {
+    display: flex;
+    background-color: rgba(255, 201, 120, 0.5);
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artigo {
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+}
+
+.main_section .main_section_header {
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+}
+.main_section article {
+    opacity: 0.85;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+.main_section article:hover {
+    opacity: 1;
+}
+
+.main_section article img {
+    width: 100%;
+}
+
+.main_section article p {
+    margin: 10px 0;
+}
+
+.main_section article .category {
+    font-size: 0.875em;
+    color: #d36833;
+}
+
+.main_section article h2 {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.main_section article h2 a {
+    color: #333;
+}
+
+/* --------------------------------- FOOTER --------------------------------- */
+footer {
+    background-color: #f9b233;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saber-mais {
+    text-align: center;
+
+    display: block;
+    background-color: #f9b233;
+}
+.links-uteis li {
+    list-style: none;
+}
+
+.menu-rodape {
+    background-color: #f9b233;
+}
+.menu-rodape h1 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+.menu-rodape li a,
+.links-uteis li a {
+    color: #000;
+}
+
+.info h2,
+.links-uteis h3,
+.menu-rodape h3 {
+    padding: 20px 0 20px 0;
+}
+
+.texto-direitos {
+    background-color: #f9b233;
+    text-align: center;
+
+    font-size: 20px;
+}
+/* --------------------------------- FOOTER --------------------------------- */
